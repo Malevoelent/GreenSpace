@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(236, 253, 234);
+}
+.sky_tree_img{
+    padding:15px;
+}
+.sky_tree_img img{
+    width: 250px;
+    height: 210px;
+    border-radius: 5px;
+}
+.gardening_matters{
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
+ 
+.stories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-6{
+    padding: 15px;
+}
+.col-3 img{
+    width: 200px;
+    height: 200px;
+}
+header {
+    /* background-color: #98e2a2; */
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+hr{
+    width: 80%;;
+}

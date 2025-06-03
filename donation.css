@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(236, 253, 234);
+}
+p{
+    font-family: Georgia;
+    font-size: 17px;
+}
+.container-donation {
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    width: 80%;
+    height: auto;
+    border: none;
+    padding: 100px 50px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+    background-image: url(Image/donate3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container-donation p {
+    color: rgb(0, 0, 0);
+    font-family: Georgia;
+    font-size: 17px;
+    padding-right: 70px;
+}
+button {
+    background: linear-gradient(to right, #26a18e, #69db92, rgb(70, 210, 96));
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 160px;
+    height: 35px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+a:hover button{
+    width: 165px;
+    height: 40px;
+}
+@media screen and (max-width:600px){
+    .container-donation {font-size: 10px; padding-left: 25px; padding-right: 10px;}
+    .button{font-size: 10px; width: 145px; height: 20px;}
+}

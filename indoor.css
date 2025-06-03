@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(236, 253, 234);
+}
+.heading{
+    margin: auto;
+    text-align: center;
+    font-family: Georgia;
+    margin-top: 50px;
+}
+p{
+    font-family: Georgia;
+}
+.lily img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.bamboo img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.zz img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.snake img {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.row_plants {
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #87c37c;
+    margin: 20px auto;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 30px;
+    width: 80%;
+    text-align: left;
+    font-family: Georgia;
+}
+[class*="col-7"]{
+    padding-left: 40px;
+    padding-top: 5px;
+}
+[class*="col-3"] {
+    padding-left: 30px;
+}
+[class*="col-"]{
+    border: none;
+}
+.button {
+    background: linear-gradient(to right, #26a18e, #69db92, rgb(70, 210, 96));
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+}
+a:hover button{
+    width: 95px;
+    height: 35px;
+}
+@media screen and (max-width:600px){
+    .row_plants{font-size: 13px; text-align: center; padding-left: 0px; margin-bottom: 30px;}
+    .col-7 {padding-left: 15px;}
+    .button{font-size: 13px; width: 85px; height: 25px;}
+    .img {width: 100%; height: auto; padding-right: 10px;}
+    .heading {font-size: 15px; padding-left: none;}
+}

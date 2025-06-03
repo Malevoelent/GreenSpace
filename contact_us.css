@@ -1,0 +1,115 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+p{
+    font-family: Georgia;
+}
+.contact-info {
+    border: none;
+    padding-left: 10px;
+}
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ECFDEA;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+}
+.contact .content p{
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 300;
+}
+.message {  
+    text-align: center; 
+    padding-top: 50px;
+} 
+.message p {
+    font-family: Georgia;
+}
+.page { 
+    background-color: #ECFDEA; 
+} 
+.container1 { 
+    padding: 40px; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.contact-info { 
+    flex: 1; 
+} 
+ 
+.contact-info p { 
+    font-size: 17px; 
+    margin: 20px 0; 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.contact-info img { 
+    width: 54px; 
+    margin-right: 10px; 
+} 
+ 
+.form-box { 
+    flex: 1;  
+    background-color:#ECFDEA ; 
+    padding: 20px; 
+    border: 1px solid black; 
+} 
+ 
+.form-box h3 { 
+    margin-top: 0; 
+} 
+ 
+.form-box input, .form-box textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0px; 
+    border: 1px solid black; 
+    border-radius: 10px; 
+} 
+ 
+.form-box button { 
+    background: linear-gradient(to right, #26a18e, #69db92, rgb(70, 210, 96));
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+} 
+@media screen and (max-width:600px){
+    .container1 {
+        font-size: 17px;
+        display: block;
+        margin-bottom: 100%;
+    }
+    .container1 img {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-info p{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 4600px) {
+    * {
+        width: 50%;
+    }
+}
